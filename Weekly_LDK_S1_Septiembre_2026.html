@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resumen Ejecutivo — Primera Semana Septiembre 2026 — Landmark AR</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f4f3ee;color:#1a1a18;font-size:15px;line-height:1.7;padding:2rem 1rem}
+.page{max-width:880px;margin:0 auto}
+.card{background:#fff;border-radius:16px;border:.5px solid #e0dfd8;padding:1.75rem 2rem;margin-bottom:1.1rem}
+h1{font-size:22px;font-weight:500;margin-bottom:4px}
+.subtitle{font-size:13px;color:#888780}
+.st{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:#888780;margin:0 0 12px;border-bottom:.5px solid #e0dfd8;padding-bottom:6px}
+.g{display:grid;gap:10px}.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+.mc{background:#f4f3ee;border-radius:8px;padding:12px 14px}
+.ml{font-size:11px;color:#888780;margin:0 0 3px}.mv{font-size:20px;font-weight:500;margin:0}.ms{font-size:11px;color:#888780;margin:3px 0 0}
+.up{color:#1D9E75}.warn{color:#BA7517}.dn{color:#D85A30}
+.nb{background:#E1F5EE;border-left:3px solid #1D9E75;border-radius:0 8px 8px 0;padding:10px 14px;font-size:13px;line-height:1.6;margin-top:10px}
+.wb{background:#FAEEDA;border-left:3px solid #BA7517;border-radius:0 8px 8px 0;padding:10px 14px;font-size:13px;line-height:1.6;margin-top:10px}
+.rb{background:#fde8e4;border-left:3px solid #D85A30;border-radius:0 8px 8px 0;padding:10px 14px;font-size:13px;line-height:1.6;margin-top:10px}
+.pb{background:#F3EAF6;border-left:3px solid #8B4A9C;border-radius:0 8px 8px 0;padding:10px 14px;font-size:13px;line-height:1.6;margin-top:10px}
+table.t{width:100%;border-collapse:collapse;font-size:12px}
+table.t th{text-align:left;color:#888780;font-weight:500;padding:5px 8px 7px;border-bottom:.5px solid #e0dfd8;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+table.t td{padding:7px 8px;border-bottom:.5px solid #e0dfd8;vertical-align:middle}
+table.t tr:last-child td{border-bottom:none}
+.total-row td{background:#f9f9f7;font-weight:500}
+.badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:20px;font-weight:500}
+.b-green{background:#E1F5EE;color:#0F6E56}.b-blue{background:#E6F1FB;color:#185FA5}
+.b-amber{background:#FAEEDA;color:#854F0B}.b-red{background:#fde8e4;color:#991f0f}.b-gray{background:#F1EFE8;color:#5F5E5A}
+.tag{font-size:10px;color:#888780;display:block;margin-top:1px}
+strong{font-weight:500}
+.prog-wrap{background:#e0dfd8;border-radius:4px;height:6px;margin-top:6px;overflow:hidden}
+.prog-bar{height:100%;border-radius:4px}
+.week-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:12px}
+.week-card{background:#f4f3ee;border-radius:10px;padding:12px 10px}
+.week-title{font-size:10px;font-weight:500;color:#888780;margin-bottom:6px;text-transform:uppercase;letter-spacing:.03em}
+.week-row{display:flex;justify-content:space-between;font-size:11px;padding:2px 0;border-bottom:.5px solid #e0dfd8}
+.week-row:last-child{border-bottom:none}
+.week-label{color:#888780}
+.act{border-radius:10px;padding:13px 15px;margin-bottom:7px}
+.act-now{background:#E1F5EE;border-left:4px solid #1D9E75}
+.act-next{background:#E6F1FB;border-left:4px solid #185FA5}
+.act-title{font-size:12px;font-weight:500;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.act-body{font-size:12px;line-height:1.6;color:#3a3a38}
+.checklist{display:flex;flex-direction:column;gap:5px}
+.cl-item{display:flex;align-items:flex-start;gap:12px;background:#f4f3ee;border-radius:10px;padding:11px 14px;text-decoration:none;color:#1a1a18;transition:background .15s}
+.cl-item:hover{background:#e8e7e1}
+.cl-icon{font-size:17px;flex-shrink:0;margin-top:1px}
+.cl-label{font-size:12px;font-weight:500;margin-bottom:1px}
+.cl-sub{font-size:11px;color:#888780}
+.cl-arrow{margin-left:auto;color:#c0bfba;font-size:14px;flex-shrink:0;align-self:center}
+.cl-tag{display:inline-block;font-size:10px;padding:1px 6px;border-radius:8px;font-weight:500;margin-left:6px}
+.cl-now{background:#E1F5EE;color:#0F6E56}
+.cl-next{background:#E6F1FB;color:#185FA5}
+.chip{display:inline-block;font-size:11px;padding:2px 8px;border-radius:6px;font-weight:500;margin:2px 2px 2px 0}
+.chip-blue{background:#E6F1FB;color:#185FA5}
+.chip-green{background:#E1F5EE;color:#0F6E56}
+.chip-amber{background:#FAEEDA;color:#854F0B}
+.chip-red{background:#fde8e4;color:#991f0f}
+.chip-purple{background:#F3EAF6;color:#6B3A7C}
+.cat-block{margin-bottom:14px;background:#f9f9f7;border-radius:10px;padding:14px}
+.cat-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.cat-title{font-size:12px;font-weight:500}
+.cat-total{font-size:11px;color:#888780}
+.hero-sale{background:linear-gradient(135deg,#8B4A9C,#6B3A7C);border-radius:14px;padding:20px 24px;color:#fff;margin-bottom:12px}
+.hero-sale .amount{font-size:32px;font-weight:700}
+.hero-sale .label{font-size:12px;opacity:0.85;margin-top:2px}
+@media(max-width:620px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}.week-grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- HEADER -->
+<div class="card">
+  <h1>Landmark AR — Resumen ejecutivo Septiembre 2026</h1>
+  <p class="subtitle">Primera semana (1–6/9) · Epic Sale en curso desde el 28/8 · Web · Meta + Google + GA4</p>
+</div>
+
+<!-- KPIs WEB -->
+<div class="card">
+  <div class="st">Resultados web — semana 1 al 6/9</div>
+  <div class="g g4" style="margin-bottom:10px">
+    <div class="mc">
+      <p class="ml">Facturación web</p>
+      <p class="mv up">$15,92M</p>
+      <p class="ms up">12,2% del objetivo mensual ($130M)</p>
+      <div class="prog-wrap"><div class="prog-bar" style="width:12.2%;background:#1D9E75"></div></div>
+    </div>
+    <div class="mc">
+      <p class="ml">Pedidos · Ticket</p>
+      <p class="mv">19</p>
+      <p class="ms">$837.680 ticket promedio</p>
+    </div>
+    <div class="mc">
+      <p class="ml">ACOS performance</p>
+      <p class="mv up">13,01%</p>
+      <p class="ms">Inv. performance $2,07M</p>
+    </div>
+    <div class="mc">
+      <p class="ml">Inversión total</p>
+      <p class="mv">$3,38M</p>
+      <p class="ms">Meta + Google</p>
+    </div>
+  </div>
+  <div class="g g4">
+    <div class="mc">
+      <p class="ml">ACOS total</p>
+      <p class="mv warn">21,26%</p>
+      <p class="ms">Inv. total $3,38M / web $15,92M</p>
+    </div>
+    <div class="mc">
+      <p class="ml">Sesiones GA4</p>
+      <p class="mv">47.609</p>
+      <p class="ms">7.935/día promedio</p>
+    </div>
+    <div class="mc">
+      <p class="ml">CVR (sesión→pedido)</p>
+      <p class="mv">0,040%</p>
+      <p class="ms">GA4 transacciones: 0,023%</p>
+    </div>
+    <div class="mc">
+      <p class="ml">Mes transcurrido</p>
+      <p class="mv">20,0%</p>
+      <p class="ms">6 de 30 días · objetivo cubierto 12,2%</p>
+    </div>
+  </div>
+  <div class="nb" style="margin-top:10px">La semana arranca con $15,92M — 12,2% del nuevo objetivo de septiembre ($130M, el doble del inicial de agosto). El ritmo relativo va 7,8pp por detrás del mes transcurrido, aunque en pesos absolutos la semana factura 26,1% más que los mismos 6 días de agosto — el objetivo subió más rápido que la venta.</div>
+</div>
+
+<!-- ═══ SEMANA — RESULTADOS DÍA A DÍA ═══ -->
+<div class="card">
+  <div class="st">🔥 Epic Sale — semana 1 de septiembre</div>
+  <div class="hero-sale">
+    <div class="amount">$15,9M</div>
+    <div class="label">Facturación web · 1 al 6 de septiembre (6 días)</div>
+  </div>
+  <div class="g g4" style="margin-bottom:10px">
+    <div class="mc">
+      <p class="ml">Pico de facturación</p>
+      <p class="mv up">$5,79M</p>
+      <p class="ms">Martes 1/9</p>
+    </div>
+    <div class="mc">
+      <p class="ml">2do pico</p>
+      <p class="mv">$3,99M</p>
+      <p class="ms">Viernes 4/9</p>
+    </div>
+    <div class="mc">
+      <p class="ml">2do finde del Sale</p>
+      <p class="mv dn">$3,51M</p>
+      <p class="ms dn">vs $16,95M del finde inaugural</p>
+    </div>
+    <div class="mc">
+      <p class="ml">Pico de sesiones</p>
+      <p class="mv up">9.099</p>
+      <p class="ms">Domingo 6/9</p>
+    </div>
+  </div>
+  <table class="t" style="margin-bottom:10px">
+    <thead><tr><th>Día</th><th>Facturación</th><th>Pedidos</th><th>Sesiones</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Martes 1/9</strong><span class="tag">post finde inaugural del Sale</span></td><td class="up">$5.788.000</td><td>4</td><td>8.662</td></tr>
+      <tr><td>Miércoles 2/9</td><td>$847.000</td><td>2</td><td>7.609</td></tr>
+      <tr><td>Jueves 3/9</td><td>$1.780.520</td><td>5</td><td>6.916</td></tr>
+      <tr><td><strong>Viernes 4/9</strong></td><td class="up">$3.988.000</td><td>4</td><td>6.569</td></tr>
+      <tr><td>Sábado 5/9</td><td>$1.743.000</td><td>2</td><td>8.754</td></tr>
+      <tr><td>Domingo 6/9</td><td>$1.769.400</td><td>2</td><td class="up">9.099</td></tr>
+      <tr class="total-row"><td>Total 6 días</td><td>$15.915.920</td><td>19</td><td>47.609</td></tr>
+    </tbody>
+  </table>
+  <div class="nb">Dos picos marcados (martes 1/9 y viernes 4/9) separados por días más flojos. El segundo fin de semana del Sale mostró menos tracción en ventas que el inaugural, aunque las sesiones se mantuvieron altas (pico del período el domingo 6/9) — el tráfico sigue firme, la conversión es lo que se desaceleró.</div>
+</div>
+
+<!-- GRAFICO -->
+<div class="card">
+  <div class="st">Facturación web diaria — septiembre (ARS)</div>
+  <canvas id="chartLMK" style="max-height:200px"></canvas>
+  <p style="font-size:11px;color:#888780;margin-top:6px">Barras: facturación diaria web · 1 al 6 de septiembre</p>
+</div>
+
+<!-- ANÁLISIS SEMANAL (continuidad con agosto) -->
+<div class="card">
+  <div class="st">Análisis semanal — continuidad agosto → septiembre</div>
+  <div class="week-grid">
+    <div class="week-card">
+      <div class="week-title">16–22/8</div>
+      <div class="week-row"><span class="week-label">Facturación</span><span>$7,6M</span></div>
+      <div class="week-row"><span class="week-label">Pedidos</span><span>17</span></div>
+      <div class="week-row"><span class="week-label">Ticket</span><span>$449.254</span></div>
+    </div>
+    <div class="week-card">
+      <div class="week-title">23–27/8</div>
+      <div class="week-row"><span class="week-label">Facturación</span><span class="up">$44,7M</span></div>
+      <div class="week-row"><span class="week-label">Pedidos</span><span>13</span></div>
+      <div class="week-row"><span class="week-label">Ticket</span><span class="up">$3.436.843</span></div>
+    </div>
+    <div class="week-card" style="background:#F3EAF6">
+      <div class="week-title" style="color:#6B3A7C">Epic Sale 28-30/8</div>
+      <div class="week-row"><span class="week-label">Facturación</span><span class="up">$20,3M</span></div>
+      <div class="week-row"><span class="week-label">Pedidos</span><span>17</span></div>
+      <div class="week-row"><span class="week-label">Ticket</span><span>$1.191.635</span></div>
+    </div>
+    <div class="week-card">
+      <div class="week-title">31/8 (cierre agosto)</div>
+      <div class="week-row"><span class="week-label">Facturación</span><span>$2,86M</span></div>
+      <div class="week-row"><span class="week-label">Pedidos</span><span>6</span></div>
+      <div class="week-row"><span class="week-label">Ticket</span><span>$476.517</span></div>
+    </div>
+    <div class="week-card" style="background:#E1F5EE">
+      <div class="week-title" style="color:#0F6E56">1–6/9 ⭐</div>
+      <div class="week-row"><span class="week-label">Facturación</span><span class="up">$15,9M</span></div>
+      <div class="week-row"><span class="week-label">Pedidos</span><span>19</span></div>
+      <div class="week-row"><span class="week-label">Ticket</span><span>$837.680</span></div>
+    </div>
+  </div>
+  <div class="nb">La primera semana de septiembre sostiene un ritmo similar al de la semana previa a la explosión del Epic Sale (23-27/8) en términos de facturación, aunque con más pedidos y ticket más moderado — el mes arranca con base sólida antes de que se sepa cómo evoluciona el resto del Sale.</div>
+</div>
+
+<!-- OPTIMIZACIONES -->
+<div class="card">
+  <div class="st">Optimizaciones — qué encaramos y qué viene</div>
+  <div class="checklist">
+    <a href="#opt-ritmo" class="cl-item">
+      <span class="cl-icon">📊</span>
+      <div>
+        <div class="cl-label">Reforzar el pulso del Sale de cara a la segunda mitad del mes <span class="cl-tag cl-now">Esta semana</span></div>
+        <div class="cl-sub">El ritmo actual proyecta 61,2% del objetivo — el segundo finde del Sale ya mostró menos tracción que el inaugural. Buen momento para reforzar comunicación o presupuesto antes de mitad de mes</div>
+      </div>
+    </a>
+    <a href="#opt-highTkt" class="cl-item">
+      <span class="cl-icon">🏆</span>
+      <div>
+        <div class="cl-label">High Tkt Statement — sigue siendo la campaña más eficiente del mix <span class="cl-tag cl-now">Esta semana</span></div>
+        <div class="cl-sub">Mejor CPA de las campañas con compras esta semana. Viene de ROAS 14,22 en el arranque del Sale — candidata natural para sostener presupuesto prioritario</div>
+      </div>
+    </a>
+    <a href="#opt-mesas" class="cl-item">
+      <span class="cl-icon">🪑</span>
+      <div>
+        <div class="cl-label">Mid Tkt Secondary — optimizar segmentación y creativos <span class="cl-tag cl-now">Esta semana</span></div>
+      </div>
+    </a>
+    <a href="#opt-brand" class="cl-item">
+      <span class="cl-icon">🔍</span>
+      <div>
+        <div class="cl-label">Google Search Brand — mantiene tracción constante <span class="cl-tag cl-next">Próxima semana</span></div>
+        <div class="cl-sub">Sostiene conversión de compra estable con presupuesto acotado. Se propone mantener el nivel de inversión mientras continúe el Sale</div>
+      </div>
+    </a>
+    <a href="#opt-categorias" class="cl-item">
+      <span class="cl-icon">🛋️</span>
+      <div>
+        <div class="cl-label">Mesas y Muebles-Bar concentran 61,8% del revenue con solo 11,3% de las unidades <span class="cl-tag cl-next">Monitorear</span></div>
+        <div class="cl-sub">Piezas de ticket alto siguen traccionando la facturación semanal — vale sostener su visibilidad en las piezas de comunicación del Sale</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!-- META ADS -->
+<div id="opt-mesas" class="card">
+  <div class="st">Meta Ads — campañas performance septiembre (1–6/9)</div>
+  <table class="t" style="margin-bottom:14px">
+    <thead><tr><th>Campaña</th><th>Inv.</th><th>% de inv.</th><th>Comp.</th><th>CPA</th><th>ROAS</th></tr></thead>
+    <tbody>
+      <tr id="opt-mesas-row">
+        <td><strong>Mid Tkt Secondary</strong></td>
+        <td>$500.971</td><td>24,0%</td><td>2</td><td>$250.486</td><td><span class="warn">4,91</span></td>
+      </tr>
+      <tr id="opt-highTkt">
+        <td><strong>High Tkt Statement</strong></td>
+        <td>$364.495</td><td>17,5%</td><td>3</td><td>$121.498</td><td><span class="up">3,54</span></td>
+      </tr>
+      <tr>
+        <td>Awareness GEO</td>
+        <td>$332.352</td><td>15,9%</td><td>0</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Low Tkt Entrada</td>
+        <td>$331.580</td><td>15,9%</td><td>0</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>RMKT Dinámico</td>
+        <td>$143.530</td><td>6,9%</td><td>0</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Lead WhatsApp + IG DM</td>
+        <td>$155.177</td><td>7,4%</td><td>0</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Otras (Tráfico, Engage, Seguidores)</td>
+        <td>$193.998</td><td>9,3%</td><td>0</td><td>—</td><td>—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="act act-now" style="margin-bottom:7px">
+    <div class="act-title"><i class="ti ti-circle-check" style="color:#1D9E75"></i> High Tkt Statement — sostener presupuesto</div>
+    <div class="act-body">Mejor CPA ($121K) de las campañas con compras esta semana. Viene de un ROAS 14,22 en el arranque del Sale — se propone mantenerla como prioridad de presupuesto.</div>
+  </div>
+  <div class="act act-now">
+    <div class="act-title"><i class="ti ti-circle-check" style="color:#1D9E75"></i> Mid Tkt Secondary — optimizar segmentación y creativos</div>
+  </div>
+</div>
+
+<!-- GOOGLE ADS -->
+<div id="opt-brand" class="card">
+  <div class="st">Google Ads — campañas septiembre (1–6/9)</div>
+  <table class="t" style="margin-bottom:12px">
+    <thead><tr><th>Campaña</th><th>Etapa</th><th>Inv.</th><th>% de inv.</th><th>Clics</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>PMax GeoLocal</strong><span class="tag">Tráfico a sucursales</span></td>
+        <td><span class="badge b-amber">Geo</span></td>
+        <td>$351.854</td><td>27,1%</td><td>2.203</td>
+      </tr>
+      <tr>
+        <td><strong>PMax Purchase Ventas</strong><span class="tag">All-mix compras</span></td>
+        <td><span class="badge b-green">Performance</span></td>
+        <td>$336.631</td><td>26,0%</td><td>9.043</td>
+      </tr>
+      <tr>
+        <td><strong>Search Brand</strong><span class="tag">Captura demanda de marca</span></td>
+        <td><span class="badge b-green">Performance</span></td>
+        <td>$245.239</td><td>18,9%</td><td>1.573</td>
+      </tr>
+      <tr>
+        <td><strong>Search Non Brand</strong></td>
+        <td><span class="badge b-green">Performance</span></td>
+        <td>$148.426</td><td>11,4%</td><td>658</td>
+      </tr>
+      <tr>
+        <td><strong>YT Awareness</strong></td>
+        <td><span class="badge b-gray">Branding</span></td>
+        <td>$75.721</td><td>5,8%</td><td>72</td>
+      </tr>
+      <tr>
+        <td><strong>Search Conquest</strong></td>
+        <td><span class="badge b-blue">Conquista</span></td>
+        <td>$72.808</td><td>5,6%</td><td>648</td>
+      </tr>
+      <tr>
+        <td><strong>PMax Tráfico</strong></td>
+        <td><span class="badge b-gray">Tráfico</span></td>
+        <td>$66.477</td><td>5,1%</td><td>12.868</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="wb">Search Brand mantiene tracking de compra estable con presupuesto acotado (18,9% de la inversión). PMax Purchase Ventas sostiene el mayor volumen de clics de la cuenta (9.043), orientado a construir el funnel de tráfico y consideración durante el Sale.</div>
+</div>
+
+<!-- CATEGORÍAS DETALLE -->
+<div id="opt-categorias" class="card">
+  <div class="st">¿Qué se vende más por categoría? — septiembre (1-6/9)</div>
+  <p style="font-size:12px;color:#888780;margin-bottom:12px">El backend no permite aislar categoría por día — este desglose corresponde a los registros de septiembre cargados a la fecha (~$15,1M de los $15,9M totales de la semana, 44 unidades).</p>
+
+  <!-- MESAS -->
+  <div class="cat-block">
+    <div class="cat-header">
+      <span class="cat-title">Mesas</span>
+      <span class="cat-total">$4,93M · 32,6% del revenue</span>
+    </div>
+    <div style="margin-bottom:8px">
+      <span class="chip chip-amber">3 SKUs · ticket $1,64M/u</span>
+    </div>
+    <p style="font-size:11px;color:#5f5e5a">Mesa Baja Jacques Chrome Ceramic ($2,71M) y Mesa Baja Dongo Short ($1,50M) lideran — categoría de pocas piezas y mucho ticket.</p>
+  </div>
+
+  <!-- MUEBLES-BAR -->
+  <div class="cat-block">
+    <div class="cat-header">
+      <span class="cat-title">Muebles - Bar</span>
+      <span class="cat-total">$4,42M · 29,2% del revenue</span>
+    </div>
+    <div style="margin-bottom:8px">
+      <span class="chip chip-blue">2 SKUs · ticket $2,21M/u</span>
+    </div>
+    <p style="font-size:11px;color:#5f5e5a">Carrito Vodka Silver ($2,24M) y Carrito Martinez Silver ($2,18M) — el ticket más alto de todas las categorías del período.</p>
+  </div>
+
+  <!-- ALFOMBRAS -->
+  <div class="cat-block">
+    <div class="cat-header">
+      <span class="cat-title">Alfombras</span>
+      <span class="cat-total">$1,61M · 10,6% del revenue</span>
+    </div>
+    <div style="margin-bottom:8px">
+      <span class="chip chip-green">3 SKUs</span>
+    </div>
+    <p style="font-size:11px;color:#5f5e5a">Dune Zayden Gris ($743K) y Emine Ren Beige (2 unidades, $614K) — la única categoría con repetición de compra del mismo SKU.</p>
+  </div>
+
+  <!-- ILUMINACIÓN -->
+  <div class="cat-block">
+    <div class="cat-header">
+      <span class="cat-title">Iluminación</span>
+      <span class="cat-total">$1,51M · 10,0% del revenue</span>
+    </div>
+    <div style="margin-bottom:8px">
+      <span class="chip chip-amber">4 SKUs</span>
+    </div>
+    <p style="font-size:11px;color:#5f5e5a">Lámpara Colgante Olivia Circular ($638K) lidera la categoría.</p>
+  </div>
+
+  <!-- OTROS/DECO -->
+  <div class="cat-block" style="background:#F3EAF6">
+    <div class="cat-header">
+      <span class="cat-title">Otros/Deco</span>
+      <span class="cat-total">$638K · 4,2% del revenue · 61,4% de las unidades</span>
+    </div>
+    <div style="margin-bottom:8px">
+      <span class="chip chip-purple">9 SKUs · el mayor volumen</span>
+    </div>
+    <p style="font-size:11px;color:#5f5e5a">Platos, difusores y adornos chicos — el motor de rotación de pedidos, no de facturación.</p>
+  </div>
+
+  <div class="nb">Mesas y Muebles-Bar juntas explican el 61,8% del revenue con solo 11,3% de las unidades — el ticket alto de estas piezas sostiene la facturación de la semana. Otros/Deco es la inversa: 61,4% de las unidades pero apenas 4,2% del revenue.</div>
+</div>
+
+<!-- TOP 10 PRODUCTOS -->
+<div class="card">
+  <div class="st">Top 10 productos — por revenue (septiembre, datos disponibles)</div>
+  <table class="t">
+    <thead><tr><th>#</th><th>Producto</th><th>Categoría</th><th>Uds.</th><th>Revenue</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>Mesa Baja Jacques Chrome Ceramic</strong></td><td>Mesas</td><td>1</td><td><span class="up">$2.709.000</span></td></tr>
+      <tr><td>2</td><td><strong>Carrito Vodka Silver</strong></td><td>Muebles-Bar</td><td>1</td><td>$2.235.000</td></tr>
+      <tr><td>3</td><td><strong>Carrito Martinez Silver</strong></td><td>Muebles-Bar</td><td>1</td><td>$2.180.000</td></tr>
+      <tr><td>4</td><td><strong>Mesa Baja Dongo Short</strong></td><td>Mesas</td><td>1</td><td>$1.495.000</td></tr>
+      <tr><td>5</td><td><strong>Funda de Lino Thess Charcoal Queen</strong></td><td>Textil</td><td>1</td><td>$1.154.900</td></tr>
+      <tr><td>6</td><td><strong>Dune Zayden Gris 160×230</strong></td><td>Alfombras</td><td>1</td><td>$743.000</td></tr>
+      <tr><td>7</td><td><strong>Set Mesas Auxiliares Moana</strong></td><td>Mesas</td><td>1</td><td>$728.000</td></tr>
+      <tr><td>8</td><td><strong>Lámpara Colgante Olivia Circular</strong></td><td>Iluminación</td><td>1</td><td>$638.000</td></tr>
+      <tr><td>9</td><td><strong>Sillón Mini Togo Hevre Cream Green</strong></td><td>Sillones</td><td>1</td><td>$623.000</td></tr>
+      <tr><td>10</td><td><strong>Emine Ren Beige 80×150</strong></td><td>Alfombras</td><td>2</td><td>$614.000</td></tr>
+    </tbody>
+  </table>
+  <div class="nb" style="margin-top:8px">Los 4 productos líderes (Mesa Jacques + 2 Carritos + Mesa Dongo) suman $8,62M — el 57% de todo el revenue categorizado de la semana en apenas 4 unidades.</div>
+</div>
+
+</div>
+
+<script>
+Chart.defaults.font.family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif";
+Chart.defaults.font.size=11;
+const gc='rgba(0,0,0,0.05)',tc='#888780';
+const labels=['1/9','2','3','4','5','6'];
+const fact=[5788000,847000,1780520,3988000,1743000,1769400];
+new Chart(document.getElementById('chartLMK'),{
+  type:'bar',
+  data:{labels,datasets:[
+    {label:'Facturación diaria web',data:fact,backgroundColor:'rgba(29,158,117,0.75)',borderRadius:4}
+  ]},
+  options:{
+    responsive:true,
+    interaction:{mode:'index',intersect:false},
+    plugins:{
+      legend:{display:false},
+      tooltip:{callbacks:{label:ctx=>` $${(ctx.parsed.y/1000000).toFixed(2)}M`}}
+    },
+    scales:{
+      x:{ticks:{color:tc,font:{size:10}},grid:{color:gc}},
+      y:{ticks:{color:tc,callback:v=>'$'+(v/1000000).toFixed(1)+'M'},grid:{color:gc}}
+    }
+  }
+});
+</script>
+</body>
+</html>
